@@ -17,6 +17,7 @@ Linux.  Windows will require you do install the software from
 https://www.python.org/downloads/windows/.
 
 ## Installing the Program
+
 To install this program simple clone the software from github to a directory
 of your choice.  Example:
 
@@ -27,4 +28,47 @@ https://github.com/negregg/seng560calcuator/archive/master.zip
 
 Note: All files needed for application to run are included in the repoistory
 including the ` seng560Calc  ` library.
+
+## Executing the Program
+
+Execution of the Basic Calculator Program is very simple.  Please follow the 
+below steps:
+
+* Open a terminal window in your operating system of choice.
+* Change your working directory to where you have downloadeded/installed the
+  basic calculator program.
+* Execute the Basic Calculator Program by typing ` python3 calculator.py `.
+* Follow the instructions on screen to perform basic math operations.
+* The program will continue to loop to main menu so the user can process
+  additional operations if desired.  Or the user can enter 5 to exit the 
+  program
+
+### Example Execution of Program
+The following shows a simple execution of the program completing ad addition
+operation.
+
+```bash
+********************************************************************************
+
+Welcome to the Simple Text Calculator!
+
+********************************************************************************
+
+Please select from the following options/operations.
+NOTE: This simple calculator can only operate on a max of two numbers.
+--------------------------------------------------------------------------------
+1) Addition
+2) Subtaction
+3) Multiplication
+4) Division
+5) Exit Program
+
+--------------------------------------------------------------------------------
+Which option would you like to choose? 1
+
+Enter the first number: 10
+Enter the sencond number: 5
+Answer: 15
+
+Press 'Enter' to return to Main Menu: 
 
