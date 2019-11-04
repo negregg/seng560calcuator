@@ -4,8 +4,8 @@
 
 A simple math calculator written in Python math calculator written in Python 3.
 This calculator provides Text User Interface (TUI) that allows a user to do 
-simple math operations such as addition, substraction, multiplication, and 
-division.   This application utilizies the 
+simple math operations such as addition, subtraction, multiplication, and 
+division.   This application utilizes the 
 https://github.com/jdc0051/seng560Calc library to perform all backend 
 operations.  
 
@@ -18,7 +18,7 @@ https://www.python.org/downloads/windows/.
 
 ## Installing the Program
 
-To install this program simple clone the software from github to a directory
+To install this program simple clone the software from GitHub to a directory
 of your choice.  Example:
 
 ` git clone https://github.com/negregg/seng560calcuator.git `
@@ -26,7 +26,7 @@ of your choice.  Example:
 You may choose to also manually download the application from: 
 https://github.com/negregg/seng560calcuator/archive/master.zip
 
-Note: All files needed for application to run are included in the repoistory
+Note: All files needed for application to run are included in the repository
 including the ` seng560Calc  ` library.
 
 ## Executing the Program
@@ -35,7 +35,7 @@ Execution of the Simple Math Calculator Program is very simple.  Please follow t
 below steps:
 
 * Open a terminal window in your operating system of choice.
-* Change your working directory to where you have downloadeded/installed the
+* Change your working directory to where you have downloaded/installed the
   Simple Math Calculator program.
 * Execute the Simple Math Calculator Program by typing ` python3 calculator.py `.
 * Follow the instructions on screen to perform basic math operations.
@@ -76,10 +76,10 @@ Press 'Enter' to return to Main Menu:
 ## Experience with Utilizing https://github.com/jdc0051/seng560Calc Library
 
 Utilizing the external, third-party seng560Calc library was good.  The library
-was very easy to incorperate into the Simple Text Calculator.  Reusing the
+was very easy to incorporate into the Simple Text Calculator.  Reusing the
 library was done in a "black-box" fashion.  In other words, the seng560Calc
 library require no modifications to be utilized in the Simple Math Calculator.
 To utilize the library, a programmer needed to simple plug in the provided 
 functions and pass the required two values for the desired operation.  
 Returned values from functions were always of type "int" or "float" which made it 
-easy to maniuplate the response inside the Simple Math Calculator.
+easy to manipulate the response inside the Simple Math Calculator.
