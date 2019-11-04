@@ -71,6 +71,7 @@ Enter the sencond number: 5
 Answer: 15
 
 Press 'Enter' to return to Main Menu: 
+```
 
 ## Experience with Utilizing https://github.com/jdc0051/seng560Calc Library
 
