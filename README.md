@@ -75,7 +75,7 @@ Press 'Enter' to return to Main Menu:
 
 ## Experience with Utilizing https://github.com/jdc0051/seng560Calc Library
 
-My experience Utilizing the third-party seng560Calc library was very good.  The library
+My experience utilizing the third-party seng560Calc library was very good.  The library
 was very easy to incorporate into the Simple Text Calculator.  Reusing the
 library was done in a "black-box" fashion.  In other words, the seng560Calc
 library require no modifications to be utilized in the Simple Math Calculator.
