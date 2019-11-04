@@ -1,8 +1,8 @@
-# Basic Math Calculator
+# Simple Math Calculator
 
 ## Overview
 
-A basic math calculator written in Python math calculator written in Python 3.
+A simple math calculator written in Python math calculator written in Python 3.
 This calculator provides Text User Interface (TUI) that allows a user to do 
 simple math operations such as addition, substraction, multiplication, and 
 division.   This application utilizies the 
@@ -31,13 +31,13 @@ including the ` seng560Calc  ` library.
 
 ## Executing the Program
 
-Execution of the Basic Calculator Program is very simple.  Please follow the 
+Execution of the Simple Math Calculator Program is very simple.  Please follow the 
 below steps:
 
 * Open a terminal window in your operating system of choice.
 * Change your working directory to where you have downloadeded/installed the
-  basic calculator program.
-* Execute the Basic Calculator Program by typing ` python3 calculator.py `.
+  Simple Math Calculator program.
+* Execute the Simple Math Calculator Program by typing ` python3 calculator.py `.
 * Follow the instructions on screen to perform basic math operations.
 * The program will continue to loop to main menu so the user can process
   additional operations if desired.  Or the user can enter 5 to exit the 
@@ -47,7 +47,7 @@ below steps:
 The following shows a simple execution of the program completing ad addition
 operation.
 
-```bash
+```shell
 ********************************************************************************
 
 Welcome to the Simple Text Calculator!
@@ -72,3 +72,13 @@ Answer: 15
 
 Press 'Enter' to return to Main Menu: 
 
+## Experience with Utilizing https://github.com/jdc0051/seng560Calc Library
+
+Utilizing the external, third-party seng560Calc library was good.  The library
+was very easy to incorperate into the Simple Text Calculator.  Reusing the
+library was done in a "black-box" fashion.  In other words, the seng560Calc
+library require no modifications to be utilized in the Simple Math Calculator.
+To utilize the library, a programmer needed to simple plug in the provided 
+functions and pass the required two values for the desired operation.  
+Returned values from functions were always of type "int" or "float" which made it 
+easy to maniuplate the response inside the Simple Math Calculator.
