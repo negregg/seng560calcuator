@@ -75,11 +75,11 @@ Press 'Enter' to return to Main Menu:
 
 ## Experience with Utilizing https://github.com/jdc0051/seng560Calc Library
 
-Utilizing the external, third-party seng560Calc library was good.  The library
+My experience Utilizing the third-party seng560Calc library was very good.  The library
 was very easy to incorporate into the Simple Text Calculator.  Reusing the
 library was done in a "black-box" fashion.  In other words, the seng560Calc
 library require no modifications to be utilized in the Simple Math Calculator.
 To utilize the library, a programmer needed to simple plug in the provided 
 functions and pass the required two values for the desired operation.  
 Returned values from functions were always of type "int" or "float" which made it 
-easy to manipulate the response inside the Simple Math Calculator.
+easy to manipulate the response inside the Simple Math Calculator Program.
